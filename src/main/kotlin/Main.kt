@@ -81,7 +81,7 @@ fun main() {
     val pistola = Pistola("Five-Seven", 10, 2, 1, "Calibre 50")
     val bazooka = Bazooka("RPG", 10, 100, 1, "Misil")
     val rifle = Rifle("Commando", 6, 7, 1)
-
+    //Creacion de lista y mapa
     val lista = listOf(pistola, bazooka, rifle)
     val mapaArmas = mutableMapOf<String, ArmaDeFuego>()
     //Programa que recorre un mapa y dispara cada valor.
